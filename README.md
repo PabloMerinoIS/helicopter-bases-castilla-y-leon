@@ -29,9 +29,7 @@ All 10 bases reach every municipality of their province within 30 minutes. The m
 | Valladolid | 225 | Centro Municipal de Acústica | Monasterio de Vega | 18.9 |
 | Zamora | 248 | Montamarta | Pías | 26.1 |
 
-Full table: `results/tables/coverage_summary.csv`. Map of the bases and their 125 km radius: `results/figures/bases_125km.png`.
-
-![Bases and 125 km radius](results/figures/bases_125km.png)
+Full table: `results/tables/coverage_summary.csv`. Running the script also draws a map of the bases and their 125 km radius (`results/figures/bases_125km.png`) when the boundary shapefile is available.
 
 ## A note on the capital correction
 
