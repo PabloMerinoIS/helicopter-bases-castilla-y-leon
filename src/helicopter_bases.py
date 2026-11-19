@@ -30,12 +30,12 @@ UNITS = {
     "El Bierzo": ("BIERZO2", "ponferrada", "Hospital El Bierzo", 42.570759, -6.644009),
     "Burgos": ("BURGOS2", "burgos", "Hospital Universitario de Burgos", 42.361637, -3.683733),
     "León": ("LEON3", "leon", "Hospital Universitario de León", 42.619475, -5.571511),
-    "Palencia": ("PALENCIA2", "palencia", "Villaldavín", 42.16053935587521, -4.573186388760666),
-    "Salamanca": ("SALAMANCA2", "salamanca", "Otero de Vaciadores", 40.88021054363704, -5.765183288959207),
+    "Palencia": ("PALENCIA2", "palencia", "Villaldavín (new)", 42.16053935587521, -4.573186388760666),
+    "Salamanca": ("SALAMANCA2", "salamanca", "Otero de Vaciadores (new)", 40.88021054363704, -5.765183288959207),
     "Segovia": ("SEGOVIA2", "segovia", "Parador de Segovia", 40.96059, -4.10915),
-    "Soria": ("SORIA2", "soria", "Villaciervitos", 41.7540331684373, -2.6415659499109343),
+    "Soria": ("SORIA2", "soria", "Villaciervitos (new)", 41.7540331684373, -2.6415659499109343),
     "Valladolid": ("VALLADOLID2", "valladolid", "Centro Municipal de Acústica", 41.61524, -4.77196),
-    "Zamora": ("ZAMORA2", "zamora", "Montamarta", 41.65046612693046, -5.802912674910756),
+    "Zamora": ("ZAMORA2", "zamora", "Montamarta (new)", 41.65046612693046, -5.802912674910756),
 }
 
 
