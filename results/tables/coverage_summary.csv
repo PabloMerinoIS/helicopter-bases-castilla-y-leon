@@ -1,0 +1,11 @@
+unit,municipalities,population,centroid_plain,centroid_capital_x0.4,shift_km,base,farthest_municipality,farthest_km,farthest_min,municipalities_over_30min
+Ávila,248,160463,"40.5724, -4.7636","40.5470, -4.7970",4.0,Aldea del Rey Niño (new),Puerto Castilla,83.2,20.0,0
+El Bierzo,38,118595,"42.5652, -6.5839","42.5969, -6.5931",3.6,Hospital El Bierzo,Palacios del Sil,39.0,9.4,0
+Burgos,371,359740,"42.3234, -3.5763","42.3117, -3.5321",3.9,Hospital Universitario de Burgos,Fuentenebro,95.0,22.8,0
+León,173,329207,"42.5721, -5.6498","42.5674, -5.6711",1.8,Hospital Universitario de León,Encinedo,96.4,23.1,0
+Palencia,191,158063,"42.1595, -4.5469","42.2317, -4.5394",8.1,Villaldavín,La Pernía,93.7,22.5,0
+Salamanca,362,327552,"40.8819, -5.7657","40.8532, -5.7967",4.1,Otero de Vaciadores,Navasfrías,110.3,26.5,0
+Segovia,209,156620,"41.0232, -4.1464","41.0528, -4.1409",3.3,Parador de Segovia,Languilla,79.7,19.1,0
+Soria,183,90073,"41.7421, -2.6598","41.7104, -2.6394",3.9,Villaciervitos,Castillejo de Robledo,74.1,17.8,0
+Valladolid,225,525116,"41.6195, -4.7702","41.5976, -4.7665",2.5,Centro Municipal de Acústica,Monasterio de Vega,78.6,18.9,0
+Zamora,248,166253,"41.6495, -5.8057","41.6860, -5.8059",4.1,Montamarta,Pías,108.8,26.1,0
