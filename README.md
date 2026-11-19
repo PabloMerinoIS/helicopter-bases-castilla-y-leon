@@ -7,7 +7,7 @@ Where should the 10 helicopters of a new air-ambulance fleet be based (one per p
 ## Method
 
 1. **Centroid.** For each province, the centre of gravity of its municipalities weighted by population.
-2. **Base.** A base is chosen close to the centroid. An existing helipad is reused when there is one nearby; a new one is proposed otherwise (only Ávila, whose centroid is more than 10 km from any existing helipad).
+2. **Base.** A base is chosen close to the centroid. An existing helipad is reused when one is clearly closer than the rest; otherwise a new one is proposed near the centroid (the report's rule: build when the closest helipad is more than 10 km away or no helipad is notably closer). This gives 5 existing helipads (El Bierzo, Burgos, León, Segovia, Valladolid) and 5 new ones (Ávila, Palencia, Salamanca, Soria, Zamora).
 3. **Coverage.** Haversine distance from the base to every municipality, flight time at 250 km/h, and a check against the 30-minute limit (125 km radius).
 
 Data: municipalities and helipads from IDECyL (Junta de Castilla y León) and the regional boundary shapefile. They are not redistributed here; place them in `data/` (see the docstring of `src/helicopter_bases.py` for the expected files).
@@ -22,12 +22,12 @@ All 10 bases reach every municipality of their province within 30 minutes. The m
 | El Bierzo | 38 | Hospital El Bierzo | Palacios del Sil | 9.4 |
 | Burgos | 371 | Hospital Universitario de Burgos | Fuentenebro | 22.8 |
 | León | 173 | Hospital Universitario de León | Encinedo | 23.1 |
-| Palencia | 191 | Villaldavín | La Pernía | 22.5 |
-| Salamanca | 362 | Otero de Vaciadores | Navasfrías | 26.5 |
+| Palencia | 191 | Villaldavín (new) | La Pernía | 22.5 |
+| Salamanca | 362 | Otero de Vaciadores (new) | Navasfrías | 26.5 |
 | Segovia | 209 | Parador de Segovia | Languilla | 19.1 |
-| Soria | 183 | Villaciervitos | Castillejo de Robledo | 17.8 |
+| Soria | 183 | Villaciervitos (new) | Castillejo de Robledo | 17.8 |
 | Valladolid | 225 | Centro Municipal de Acústica | Monasterio de Vega | 18.9 |
-| Zamora | 248 | Montamarta | Pías | 26.1 |
+| Zamora | 248 | Montamarta (new) | Pías | 26.1 |
 
 Full table: `results/tables/coverage_summary.csv`. Running the script also draws a map of the bases and their 125 km radius (`results/figures/bases_125km.png`) when the boundary shapefile is available.
 
